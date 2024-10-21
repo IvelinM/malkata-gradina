@@ -1,8 +1,0 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs
-/dist/malkata-gradina
-/.angular/cache/18.2.9/malkata-gradina
-/node_modules
