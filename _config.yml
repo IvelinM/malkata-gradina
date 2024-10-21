@@ -1,0 +1,5 @@
+title: Malkata Gradina
+description: This is the website of Malkata Gradina
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "https://ivelinm.github.io/malkata-gradina/" # The base hostname & protocol for your site
+theme: minima
