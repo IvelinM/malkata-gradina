@@ -27,9 +27,12 @@ html(lang='en')
     body
 
         // Navigation
-        nav.navbar.navbar-light.bg-light.static-top
+        nav#home.navbar.navbar-light.bg-light.static-top
             .container
-                a.funky-font.navbar-brand(href='#!') Малката Градина
+                a.funky-font.navbar-brand(href='') Малката Градина
+                a.navbar-brand(href='#we-offer') Какво предлагаме
+                a.navbar-brand(href='#team-food') Екип и храна
+                a.navbar-brand(href='#activities') Занимания
                 a.btn.btn-primary(href='#contacts') Контакти
 
         // Masthead
@@ -51,14 +54,14 @@ html(lang='en')
 
         // Image Showcases
         section.showcase
-            .container-fluid.p-0.mb-5
-                .row.g-0
+            .container-fluid.p-0
+                .row.g-0#we-offer
                     .col-lg-6.order-lg-2.text-white.showcase-img(style="background-image: url('assets/img/bg-showcase-1.jpg');")
                     .col-lg-6.order-lg-1.my-auto.showcase-text
                         h2.funky-font Детският център предлага
                         p.lead.mb-0
                             | Целодневно и полудневно отглеждане на деца на възраст от 1 до 5 г. в домашна обстановка, светла и просторна зала за игра, с безброй разнообразни играчки и занимания в малки групи до 10 деца.
-                .row.g-0
+                .row.g-0#team-food
                     .col-lg-6.text-white.showcase-img(style="background-image: url('assets/img/bg-showcase-2.jpg');")
                     .col-lg-6.my-auto.showcase-text
                         h2.funky-font МАЛКАТА ГРАДИНА
@@ -68,7 +71,7 @@ html(lang='en')
                             | Предлагаме само и лицензирана кухня и подбрани плодове, съобразена с възрастта на децата.
                         p.lead.mt-3.mb-3
                             | Държим на хигиената и здравето на децата, помагайки им да създават най-важните навици още от ранна детска възраст, а безопасността е техен основен приоритет.
-                .row.g-0
+                .row.g-0#activities
                     .col-lg-6.order-lg-2.text-white.showcase-img(style="background-image: url('assets/img/bg-showcase-3.jpg');")
                     .col-lg-6.order-lg-1.my-auto.showcase-text
                         h2.funky-font Занимания
@@ -83,7 +86,7 @@ html(lang='en')
         // Call to Action
         section#contacts.call-to-action.text-white.text-center
             .container.position-relative
-                .row.justify-content-center.mt-5
+                .row.justify-content-center
                     .col-xl-8
                         h5.mb-4 За повече информация сме на разположение да отговорим на всичките ви въпроси – 0885921203
                         
@@ -95,25 +98,25 @@ html(lang='en')
                     .col-lg-6.h-100.text-center.text-lg-start.my-auto
                         ul.list-inline.mb-2
                             li.list-inline-item
-                                a(href='#!') About
+                                a(href='#home') Начало
                             li.list-inline-item ⋅
                             li.list-inline-item
-                                a(href='#!') Contact
+                                a(href='#we-offer') Какво предлагаме
                             li.list-inline-item ⋅
                             li.list-inline-item
-                                a(href='#!') Terms of Use
+                                a(href='#team-food') Екип и храна
                             li.list-inline-item ⋅
                             li.list-inline-item
-                                a(href='#!') Privacy Policy
-                        p.text-muted.small.mb-4.mb-lg-0 &copy; Your Website 2023. All Rights Reserved.
+                                a(href='#activities') Занимания
+                            li.list-inline-item ⋅
+                            li.list-inline-item
+                                a(href='#contacts') Контакти
+                        p.text-muted.small.mb-4.mb-lg-0 &copy; Малката Градина 2024. All Rights Reserved.
                     .col-lg-6.h-100.text-center.text-lg-end.my-auto
                         ul.list-inline.mb-0
                             li.list-inline-item.me-4
                                 a(href='#!')
                                     i.bi-facebook.fs-3
-                            li.list-inline-item.me-4
-                                a(href='#!')
-                                    i.bi-twitter.fs-3
                             li.list-inline-item
                                 a(href='#!')
                                     i.bi-instagram.fs-3
@@ -123,10 +126,5 @@ html(lang='en')
 
         // Core theme JS
         script(src='js/scripts.js')
-
-        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-        // * *                               SB Forms JS                               * *
-        // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
-        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
         script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
