@@ -10952,3 +10952,12 @@ section.features-icons {
 section.showcase div.row {
   min-height: 600px;
 }
+
+section.call-to-action {
+  background-image: none;
+}
+
+div.cubes svg {
+  height: 150px;
+  position: relative;
+}
