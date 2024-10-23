@@ -1,0 +1,59 @@
+//
+// Styles
+//
+
+@import "./variables";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Global CSS
+@import "./global";
+
+// Components
+@import "./components/icons";
+
+// Sections
+@import "./sections/masthead";
+@import "./sections/showcase";
+@import "./sections/testimonials";
+@import "./sections/call-to-action";
+@import "./sections/footer";
+
+body {
+  font-family: "LXGW WenKai Mono TC", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.funky-font {
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 0;
+}
+
+header.masthead {
+  height: 700px;
+
+  h1, h2, h3 {
+    color: #99E2FF;
+    text-shadow: 4px 4px 7px #0000FF;
+  }
+
+  h1 {
+    font-size: 70px;
+    width: 100%;
+  }
+}
+
+section.features-icons {
+  padding-top:  3rem;
+  padding-bottom: 3rem;
+}
+
+
+section.showcase div.row {
+  min-height: 600px;
+}
