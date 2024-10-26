@@ -1,6 +1,7 @@
 :host {
-  display: grid;
-  place-items: center; 
+  display: flex;
+  justify-content: center;
+  place-items: center;
 }
 
 svg {
