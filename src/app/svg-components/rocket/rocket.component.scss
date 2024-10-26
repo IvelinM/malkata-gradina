@@ -1,0 +1,10 @@
+:host {
+  display: grid;
+  place-items: center; 
+}
+
+svg {
+  width: 200px;
+  position: absolute;
+  top: -100px;
+}
